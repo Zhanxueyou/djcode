@@ -9,7 +9,7 @@ urlpatterns = patterns('',
     # url(r'^$', 'mysite.views.home', name='home'),
     # url(r'^blog/', include('blog.urls')),
     (r'^time/$', current_datetime),
-    (r'^time/plus/(\d{1,2})/$', hours_ahead),
+    (r'^time/plus/(\d{1,2})$/', hours_ahead),
 
-    #url(r'^admin/', include(admin.site.urls)),
+    url(r'^admin/', include(admin.site.urls)),
 )
