@@ -37,3 +37,21 @@ def hours_ahead(request, offset):
     dt = datetime.datetime.now() + datetime.timedelta(hours=offset)
     html = "<head><body>In %s hour(s), it will be %s.</body></html>" % (offset, dt)
     return HttpResponse(html)
+
+
+def current_url_view(request):
+    return HttpResponse("Welcome to the page at %s" % request.path)
+
+
+def display_meta(request):
+    values = sorted(request.META.items())
+    # values = request.META.items()
+    html = []
+    for k, v in values:
+        html.append('<tr><td>%s</td><td>%s</td></tr>' % (k, v))
+    return HttpResponse('<table>%s</table>' % '\n'.join(html))
+
+# HttpRequest的两个属性，两个类字典对象，request.GET、request.POST，类字典对象拥有一些普通字典所没有的方法
+
+
+
