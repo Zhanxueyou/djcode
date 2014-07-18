@@ -1,11 +1,12 @@
 from django.conf.urls import patterns, include, url
+from django.conf import settings
 from django.conf.urls import *
 from mysite.views import *
 from mysite.books.views import *
 from django.contrib import admin
 admin.autodiscover()
 
-urlpatterns = patterns('',
+urlpatterns = patterns('',      # 这个字符串用来填写公共的字符串前缀
     # Examples:
     # url(r'^$', 'mysite.views.home', name='home'),
     # url(r'^blog/', include('blog.urls')),
@@ -18,3 +19,4 @@ urlpatterns = patterns('',
     (r'^search/$', search),
     (r'^contact/$', contact)
 )
+
