@@ -41,6 +41,7 @@ INSTALLED_APPS = (
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'mysite.books',
+    'template_libs',
 )
 
 MIDDLEWARE_CLASSES = (

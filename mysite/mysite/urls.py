@@ -3,8 +3,11 @@ from django.conf import settings
 from django.conf.urls import *
 from mysite.views import *
 from mysite.books.views import *
+from mysite.books.models import Publisher
+
 from django.contrib import admin
 admin.autodiscover()
+
 
 urlpatterns = patterns('',      # 这个字符串用来填写公共的字符串前缀
     # Examples:

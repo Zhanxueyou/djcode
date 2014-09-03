@@ -1,6 +1,11 @@
 from django.db import models
 
 
+class BookManager(models.Manager):      # 自定义manager方法
+    def title_count(self, keyword):
+        return self.filter(title__icontains=keyword).count()
+
+
 class Publisher(models.Model):
     name = models.CharField(max_length=30)
     address = models.CharField(max_length=50)
@@ -32,6 +37,8 @@ class Book(models.Model):
     publisher = models.ForeignKey(Publisher)
     publication_date = models.DateField()
     num_page = models.IntegerField(blank=True, null=True)
+    num_page_test = models.IntegerField(null=True)
+    objects = BookManager()
 
     # def __unicode__(self):
     #     return self.title

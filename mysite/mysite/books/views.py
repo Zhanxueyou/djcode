@@ -5,6 +5,8 @@ from django.http import HttpResponse
 from mysite.books.models import Book
 from mysite.books.forms import ContactForm
 
+
+
 def search(request):
     errors = []
     if 'q' in request.GET:
