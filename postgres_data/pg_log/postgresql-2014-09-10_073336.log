@@ -1,0 +1,65 @@
+2014-09-10 07:33:37 HKT ÈÕÖ¾:  Êı¾İ¿âÉÏ´Î¹Ø±ÕÊ±¼äÎª 2014-09-09 18:18:32 HKT
+2014-09-10 07:33:37 HKT ÖÂÃü´íÎó:  Êı¾İ¿âÏµÍ³Æô¶¯ÖĞ
+2014-09-10 07:33:38 HKT ÈÕÖ¾:  Êı¾İ¿âÏµÍ³×¼±¸½ÓÊÜÁ¬½Ó
+2014-09-10 07:33:38 HKT ÈÕÖ¾:  ÒÑÆô¶¯autovacuum
+2014-09-10 08:11:45 HKT ÖÂÃü´íÎó:  ÓÃ»§ "mydb" Password ÈÏÖ¤Ê§°Ü
+2014-09-10 08:11:45 HKT ÏêÏ¸ĞÅÏ¢:  Connection matched pg_hba.conf line 82: "host    all             all             ::1/128                 md5"
+2014-09-10 08:15:12 HKT é”™è¯¯:  è¯­æ³•é”™è¯¯ åœ¨ "exit" æˆ–é™„è¿‘çš„ ç¬¬ 1 ä¸ªå­—ç¬¦å¤„
+2014-09-10 08:15:12 HKT è¯­å¥:  exit
+	;
+2014-09-10 09:11:31 HKT é”™è¯¯:  è¯­æ³•é”™è¯¯ åœ¨ ";" æˆ–é™„è¿‘çš„ ç¬¬ 79 ä¸ªå­—ç¬¦å¤„
+2014-09-10 09:11:31 HKT è¯­å¥:  create table weather1(
+	city 	varchar(80)	references cities1(city),
+	temp_lo	int;
+	temp_hi	int,
+	prcp	real,
+	date	date
+	);
+2014-09-10 09:14:02 HKT é”™è¯¯:  æ’å…¥æˆ–æ›´æ–°è¡¨ "weather1" è¿åå¤–é”®çº¦æŸ "weather1_city_fkey"
+2014-09-10 09:14:02 HKT è¯¦ç»†ä¿¡æ¯:  é”®å€¼å¯¹(city)=(Berkeley)æ²¡æœ‰åœ¨è¡¨"cities1"ä¸­å‡ºç°.
+2014-09-10 09:14:02 HKT è¯­å¥:  insert into weather1 values(
+	'Berkeley', 45, 53, 0.0, '1994-11-28'
+	);
+2014-09-10 13:06:15 HKT é”™è¯¯:  è¯­æ³•é”™è¯¯ åœ¨ "capitala" æˆ–é™„è¿‘çš„ ç¬¬ 6 ä¸ªå­—ç¬¦å¤„
+2014-09-10 13:06:15 HKT è¯­å¥:  drop capitala;
+2014-09-10 13:07:12 HKT é”™è¯¯:  è¯­æ³•é”™è¯¯ åœ¨ "capitals" æˆ–é™„è¿‘çš„ ç¬¬ 6 ä¸ªå­—ç¬¦å¤„
+2014-09-10 13:07:12 HKT è¯­å¥:  drop capitals;
+2014-09-10 13:07:18 HKT é”™è¯¯:  è¯­æ³•é”™è¯¯ åœ¨ "capitals" æˆ–é™„è¿‘çš„ ç¬¬ 6 ä¸ªå­—ç¬¦å¤„
+2014-09-10 13:07:18 HKT è¯­å¥:  drop capitals
+	;
+2014-09-10 14:43:14 HKT ÖÂÃü´íÎó:  ÓÃ»§ "Zhanxueyou" Password ÈÏÖ¤Ê§°Ü
+2014-09-10 14:43:14 HKT ÏêÏ¸ĞÅÏ¢:  Connection matched pg_hba.conf line 82: "host    all             all             ::1/128                 md5"
+2014-09-10 14:43:41 HKT ÖÂÃü´íÎó:  ÓÃ»§ "Zhanxueyou" Password ÈÏÖ¤Ê§°Ü
+2014-09-10 14:43:41 HKT ÏêÏ¸ĞÅÏ¢:  Connection matched pg_hba.conf line 82: "host    all             all             ::1/128                 md5"
+2014-09-10 14:43:50 HKT ÖÂÃü´íÎó:  Êı¾İ¿â "admin" ²»´æÔÚ
+2014-09-10 14:44:31 HKT ÖÂÃü´íÎó:  ÓÃ»§ "Zhanxueyou" Password ÈÏÖ¤Ê§°Ü
+2014-09-10 14:44:31 HKT ÏêÏ¸ĞÅÏ¢:  Connection matched pg_hba.conf line 82: "host    all             all             ::1/128                 md5"
+2014-09-10 14:44:35 HKT ÖÂÃü´íÎó:  ÓÃ»§ "Zhanxueyou" Password ÈÏÖ¤Ê§°Ü
+2014-09-10 14:44:35 HKT ÏêÏ¸ĞÅÏ¢:  Connection matched pg_hba.conf line 82: "host    all             all             ::1/128                 md5"
+2014-09-10 14:45:14 HKT ÖÂÃü´íÎó:  ÓÃ»§ "mydb" Password ÈÏÖ¤Ê§°Ü
+2014-09-10 14:45:14 HKT ÏêÏ¸ĞÅÏ¢:  Connection matched pg_hba.conf line 82: "host    all             all             ::1/128                 md5"
+2014-09-10 14:45:20 HKT ÖÂÃü´íÎó:  ÓÃ»§ "mydb" Password ÈÏÖ¤Ê§°Ü
+2014-09-10 14:45:20 HKT ÏêÏ¸ĞÅÏ¢:  Connection matched pg_hba.conf line 82: "host    all             all             ::1/128                 md5"
+2014-09-10 14:45:24 HKT ÖÂÃü´íÎó:  ÓÃ»§ "mydb" Password ÈÏÖ¤Ê§°Ü
+2014-09-10 14:45:24 HKT ÏêÏ¸ĞÅÏ¢:  Connection matched pg_hba.conf line 82: "host    all             all             ::1/128                 md5"
+2014-09-10 14:45:53 HKT ÖÂÃü´íÎó:  Êı¾İ¿â "admin" ²»´æÔÚ
+2014-09-10 14:56:13 HKT ÖÂÃü´íÎó:  Êı¾İ¿â "admin" ²»´æÔÚ
+2014-09-10 17:13:40 HKT ÖÂÃü´íÎó:  Êı¾İ¿â "admin" ²»´æÔÚ
+2014-09-10 17:36:06 HKT é”™è¯¯:  å­—æ®µ "version" ä¸å­˜åœ¨ ç¬¬ 8 ä¸ªå­—ç¬¦å¤„
+2014-09-10 17:36:06 HKT è¯­å¥:  select version;
+2014-09-10 17:51:43 HKT é”™è¯¯:  å¯¹å…³ç³» weather æƒé™ä¸å¤Ÿ
+2014-09-10 17:51:43 HKT è¯­å¥:  select * from weather where city = $$berkeley$$;
+2014-09-10 17:53:27 HKT é”™è¯¯:  è¯­æ³•é”™è¯¯ åœ¨ "user" æˆ–é™„è¿‘çš„ ç¬¬ 42 ä¸ªå­—ç¬¦å¤„
+2014-09-10 17:53:27 HKT è¯­å¥:  grant all privileges on database mydb to user admin;
+2014-09-10 17:54:22 HKT ÖÂÃü´íÎó:  Êı¾İ¿â "admin" ²»´æÔÚ
+2014-09-10 17:54:54 HKT é”™è¯¯:  å¯¹å…³ç³» weather æƒé™ä¸å¤Ÿ
+2014-09-10 17:54:54 HKT è¯­å¥:  select * from weather;
+2014-09-10 17:56:02 HKT é”™è¯¯:  å¯¹å…³ç³» cities æƒé™ä¸å¤Ÿ
+2014-09-10 17:56:02 HKT è¯­å¥:  select * from cities;
+2014-09-10 17:57:01 HKT é”™è¯¯:  å…³ç³» "cities" ä¸å­˜åœ¨ ç¬¬ 15 ä¸ªå­—ç¬¦å¤„
+2014-09-10 17:57:01 HKT è¯­å¥:  select * from cities;
+2014-09-10 18:31:25 HKT ÈÕÖ¾:  ½ÓÊÕµ½¿ìËÙ (fast) Í£Ö¹ÇëÇó
+2014-09-10 18:31:25 HKT ÈÕÖ¾:  ÖĞ¶ÏÈÎºÎ¼¤»îÊÂÎñ
+2014-09-10 18:31:25 HKT ÈÕÖ¾:  ÕıÔÚ¹Ø±ÕautovacuumÆô¶¯½ø³Ì
+2014-09-10 18:31:26 HKT ÈÕÖ¾:  ÕıÔÚ¹Ø±Õ
+2014-09-10 18:31:26 HKT ÈÕÖ¾:  Êı¾İ¿âÏµÍ³ÒÑ¹Ø±Õ

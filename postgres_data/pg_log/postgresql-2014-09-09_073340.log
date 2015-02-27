@@ -1,0 +1,67 @@
+2014-09-09 07:33:40 HKT ÖÂÃü´íÎó:  Êı¾İ¿âÏµÍ³Æô¶¯ÖĞ
+2014-09-09 07:33:40 HKT ÈÕÖ¾:  Êı¾İ¿âÉÏ´Î¹Ø±ÕÊ±¼äÎª 2014-09-05 16:37:29 HKT
+2014-09-09 07:33:40 HKT ÈÕÖ¾:  Êı¾İ¿âÏµÍ³×¼±¸½ÓÊÜÁ¬½Ó
+2014-09-09 07:33:40 HKT ÈÕÖ¾:  ÒÑÆô¶¯autovacuum
+2014-09-09 08:36:24 HKT ÖÂÃü´íÎó:  ÓÃ»§ "Zhanxueyou" Password ÈÏÖ¤Ê§°Ü
+2014-09-09 08:36:24 HKT ÏêÏ¸ĞÅÏ¢:  Connection matched pg_hba.conf line 82: "host    all             all             ::1/128                 md5"
+2014-09-09 08:36:35 HKT ÖÂÃü´íÎó:  ÓÃ»§ "Zhanxueyou" Password ÈÏÖ¤Ê§°Ü
+2014-09-09 08:36:35 HKT ÏêÏ¸ĞÅÏ¢:  Connection matched pg_hba.conf line 82: "host    all             all             ::1/128                 md5"
+2014-09-09 08:36:40 HKT ÖÂÃü´íÎó:  ÓÃ»§ "Zhanxueyou" Password ÈÏÖ¤Ê§°Ü
+2014-09-09 08:36:40 HKT ÏêÏ¸ĞÅÏ¢:  Connection matched pg_hba.conf line 82: "host    all             all             ::1/128                 md5"
+2014-09-09 08:36:45 HKT ÖÂÃü´íÎó:  ÓÃ»§ "Zhanxueyou" Password ÈÏÖ¤Ê§°Ü
+2014-09-09 08:36:45 HKT ÏêÏ¸ĞÅÏ¢:  Connection matched pg_hba.conf line 82: "host    all             all             ::1/128                 md5"
+2014-09-09 08:39:06 HKT ÖÂÃü´íÎó:  ÓÃ»§ "Zhanxueyou" Password ÈÏÖ¤Ê§°Ü
+2014-09-09 08:39:06 HKT ÏêÏ¸ĞÅÏ¢:  Connection matched pg_hba.conf line 82: "host    all             all             ::1/128                 md5"
+2014-09-09 08:39:15 HKT ÖÂÃü´íÎó:  ÓÃ»§ "Zhanxueyou" Password ÈÏÖ¤Ê§°Ü
+2014-09-09 08:39:15 HKT ÏêÏ¸ĞÅÏ¢:  Connection matched pg_hba.conf line 82: "host    all             all             ::1/128                 md5"
+2014-09-09 08:39:19 HKT ÖÂÃü´íÎó:  ÓÃ»§ "Zhanxueyou" Password ÈÏÖ¤Ê§°Ü
+2014-09-09 08:39:19 HKT ÏêÏ¸ĞÅÏ¢:  Connection matched pg_hba.conf line 82: "host    all             all             ::1/128                 md5"
+2014-09-09 08:39:48 HKT ÖÂÃü´íÎó:  ÓÃ»§ "Zhanxueyou" Password ÈÏÖ¤Ê§°Ü
+2014-09-09 08:39:48 HKT ÏêÏ¸ĞÅÏ¢:  Connection matched pg_hba.conf line 82: "host    all             all             ::1/128                 md5"
+2014-09-09 09:36:25 HKT é”™è¯¯:  è¯­æ³•é”™è¯¯ åœ¨ "use" æˆ–é™„è¿‘çš„ ç¬¬ 1 ä¸ªå­—ç¬¦å¤„
+2014-09-09 09:36:25 HKT è¯­å¥:  use mysite
+	;
+2014-09-09 11:01:17 HKT é”™è¯¯:  è¯­æ³•é”™è¯¯ åœ¨ "creatdb" æˆ–é™„è¿‘çš„ ç¬¬ 1 ä¸ªå­—ç¬¦å¤„
+2014-09-09 11:01:17 HKT è¯­å¥:  creatdb mydb
+	;
+2014-09-09 11:01:26 HKT é”™è¯¯:  è¯­æ³•é”™è¯¯ åœ¨ "createdb" æˆ–é™„è¿‘çš„ ç¬¬ 1 ä¸ªå­—ç¬¦å¤„
+2014-09-09 11:01:26 HKT è¯­å¥:  createdb mydb;
+2014-09-09 11:07:56 HKT é”™è¯¯:  è¯­æ³•é”™è¯¯ åœ¨ "mydb" æˆ–é™„è¿‘çš„ ç¬¬ 6 ä¸ªå­—ç¬¦å¤„
+2014-09-09 11:07:56 HKT è¯­å¥:  drop mydb;
+2014-09-09 11:16:09 HKT é”™è¯¯:  è¯­æ³•é”™è¯¯ åœ¨ "exit" æˆ–é™„è¿‘çš„ ç¬¬ 1 ä¸ªå­—ç¬¦å¤„
+2014-09-09 11:16:09 HKT è¯­å¥:  exit
+	;
+2014-09-09 11:17:04 HKT ÖÂÃü´íÎó:  ÓÃ»§ "Zhanxueyou" Password ÈÏÖ¤Ê§°Ü
+2014-09-09 11:17:04 HKT ÏêÏ¸ĞÅÏ¢:  Connection matched pg_hba.conf line 82: "host    all             all             ::1/128                 md5"
+2014-09-09 11:17:13 HKT ÖÂÃü´íÎó:  ÓÃ»§ "Zhanxueyou" Password ÈÏÖ¤Ê§°Ü
+2014-09-09 11:17:13 HKT ÏêÏ¸ĞÅÏ¢:  Connection matched pg_hba.conf line 82: "host    all             all             ::1/128                 md5"
+2014-09-09 11:17:24 HKT ÖÂÃü´íÎó:  ÓÃ»§ "Zhanxueyou" Password ÈÏÖ¤Ê§°Ü
+2014-09-09 11:17:24 HKT ÏêÏ¸ĞÅÏ¢:  Connection matched pg_hba.conf line 82: "host    all             all             ::1/128                 md5"
+2014-09-09 11:17:57 HKT ÖÂÃü´íÎó:  ÓÃ»§ "Zhanxueyou" Password ÈÏÖ¤Ê§°Ü
+2014-09-09 11:17:57 HKT ÏêÏ¸ĞÅÏ¢:  Connection matched pg_hba.conf line 82: "host    all             all             ::1/128                 md5"
+2014-09-09 11:18:01 HKT ÖÂÃü´íÎó:  ÓÃ»§ "Zhanxueyou" Password ÈÏÖ¤Ê§°Ü
+2014-09-09 11:18:01 HKT ÏêÏ¸ĞÅÏ¢:  Connection matched pg_hba.conf line 82: "host    all             all             ::1/128                 md5"
+2014-09-09 11:18:08 HKT ÖÂÃü´íÎó:  ÓÃ»§ "Zhanxueyou" Password ÈÏÖ¤Ê§°Ü
+2014-09-09 11:18:08 HKT ÏêÏ¸ĞÅÏ¢:  Connection matched pg_hba.conf line 82: "host    all             all             ::1/128                 md5"
+2014-09-09 11:18:12 HKT ÖÂÃü´íÎó:  ÓÃ»§ "Zhanxueyou" Password ÈÏÖ¤Ê§°Ü
+2014-09-09 11:18:12 HKT ÏêÏ¸ĞÅÏ¢:  Connection matched pg_hba.conf line 82: "host    all             all             ::1/128                 md5"
+2014-09-09 11:18:18 HKT ÖÂÃü´íÎó:  ÓÃ»§ "Zhanxueyou" Password ÈÏÖ¤Ê§°Ü
+2014-09-09 11:18:18 HKT ÏêÏ¸ĞÅÏ¢:  Connection matched pg_hba.conf line 82: "host    all             all             ::1/128                 md5"
+2014-09-09 11:22:29 HKT ÖÂÃü´íÎó:  ÓÃ»§ "Zhanxueyou" Password ÈÏÖ¤Ê§°Ü
+2014-09-09 11:22:29 HKT ÏêÏ¸ĞÅÏ¢:  Connection matched pg_hba.conf line 82: "host    all             all             ::1/128                 md5"
+2014-09-09 11:36:22 HKT é”™è¯¯:  è¯­æ³•é”™è¯¯ åœ¨ "(" æˆ–é™„è¿‘çš„ ç¬¬ 20 ä¸ªå­—ç¬¦å¤„
+2014-09-09 11:36:22 HKT è¯­å¥:  select current_date();
+2014-09-09 13:28:30 HKT é”™è¯¯:  è¯­æ³•é”™è¯¯ åœ¨ ")" æˆ–é™„è¿‘çš„ ç¬¬ 56 ä¸ªå­—ç¬¦å¤„
+2014-09-09 13:28:30 HKT è¯­å¥:  create table cities(
+	name	varchar(80),
+	location	point,
+	);
+2014-09-09 17:57:59 HKT é”™è¯¯:  è¯­æ³•é”™è¯¯ åœ¨ "outer" æˆ–é™„è¿‘çš„ ç¬¬ 23 ä¸ªå­—ç¬¦å¤„
+2014-09-09 17:57:59 HKT è¯­å¥:  select * from weather outer join cities ON (weather.city = cities.name);
+2014-09-09 17:58:06 HKT é”™è¯¯:  è¯­æ³•é”™è¯¯ åœ¨ "all" æˆ–é™„è¿‘çš„ ç¬¬ 23 ä¸ªå­—ç¬¦å¤„
+2014-09-09 17:58:06 HKT è¯­å¥:  select * from weather all outer join cities ON (weather.city = cities.name);
+2014-09-09 18:18:25 HKT ÈÕÖ¾:  ½ÓÊÕµ½¿ìËÙ (fast) Í£Ö¹ÇëÇó
+2014-09-09 18:18:26 HKT ÈÕÖ¾:  ÖĞ¶ÏÈÎºÎ¼¤»îÊÂÎñ
+2014-09-09 18:18:26 HKT ÈÕÖ¾:  ÕıÔÚ¹Ø±ÕautovacuumÆô¶¯½ø³Ì
+2014-09-09 18:18:28 HKT ÈÕÖ¾:  ÕıÔÚ¹Ø±Õ
+2014-09-09 18:18:33 HKT ÈÕÖ¾:  Êı¾İ¿âÏµÍ³ÒÑ¹Ø±Õ

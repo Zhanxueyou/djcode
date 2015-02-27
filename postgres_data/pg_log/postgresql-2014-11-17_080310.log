@@ -1,0 +1,26 @@
+2014-11-17 08:03:11 HKT 日志:  数据库上次关闭时间为 2014-11-15 17:41:09 HKT
+2014-11-17 08:03:12 HKT 日志:  数据库系统准备接受连接
+2014-11-17 08:03:12 HKT 日志:  已启动autovacuum
+2014-11-17 11:49:06 HKT 致命错误:  用户 "Zhanxueyou" Password 认证失败
+2014-11-17 11:49:06 HKT 详细信息:  Connection matched pg_hba.conf line 80: "host    all             all             127.0.0.1/32            md5"
+2014-11-17 11:49:10 HKT 致命错误:  用户 "Zhanxueyou" Password 认证失败
+2014-11-17 11:49:10 HKT 详细信息:  Connection matched pg_hba.conf line 80: "host    all             all             127.0.0.1/32            md5"
+2014-11-17 11:49:21 HKT 致命错误:  用户 "Zhanxueyou" Password 认证失败
+2014-11-17 11:49:21 HKT 详细信息:  Connection matched pg_hba.conf line 80: "host    all             all             127.0.0.1/32            md5"
+2014-11-17 11:49:35 HKT 致命错误:  用户 "Zhanxueyou" Password 认证失败
+2014-11-17 11:49:35 HKT 详细信息:  Connection matched pg_hba.conf line 80: "host    all             all             127.0.0.1/32            md5"
+2014-11-17 11:49:39 HKT 致命错误:  用户 "Zhanxueyou" Password 认证失败
+2014-11-17 11:49:39 HKT 详细信息:  Connection matched pg_hba.conf line 80: "host    all             all             127.0.0.1/32            md5"
+2014-11-17 11:51:01 HKT 致命错误:  用户 "Zhanxueyou" Password 认证失败
+2014-11-17 11:51:01 HKT 详细信息:  Connection matched pg_hba.conf line 80: "host    all             all             127.0.0.1/32            md5"
+2014-11-17 11:51:10 HKT 致命错误:  用户 "Zhanxueyou" Password 认证失败
+2014-11-17 11:51:10 HKT 详细信息:  Connection matched pg_hba.conf line 80: "host    all             all             127.0.0.1/32            md5"
+2014-11-17 11:51:56 HKT 致命错误:  用户 "Zhanxueyou" Password 认证失败
+2014-11-17 11:51:56 HKT 详细信息:  Connection matched pg_hba.conf line 80: "host    all             all             127.0.0.1/32            md5"
+2014-11-17 11:52:02 HKT 致命错误:  用户 "Zhanxueyou" Password 认证失败
+2014-11-17 11:52:02 HKT 详细信息:  Connection matched pg_hba.conf line 80: "host    all             all             127.0.0.1/32            md5"
+2014-11-17 18:38:50 HKT 日志:  接收到快速 (fast) 停止请求
+2014-11-17 18:38:51 HKT 日志:  中断任何激活事务
+2014-11-17 18:38:51 HKT 日志:  正在关闭autovacuum启动进程
+2014-11-17 18:38:52 HKT 日志:  正在关闭
+2014-11-17 18:38:57 HKT 日志:  数据库系统已关闭

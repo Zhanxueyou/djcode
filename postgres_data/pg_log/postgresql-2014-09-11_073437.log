@@ -1,0 +1,92 @@
+2014-09-11 07:34:37 HKT ��������:  ���ݿ�ϵͳ������
+2014-09-11 07:34:37 HKT ��־:  ���ݿ��ϴιر�ʱ��Ϊ 2014-09-10 18:31:26 HKT
+2014-09-11 07:34:37 HKT ��־:  ���ݿ�ϵͳ׼����������
+2014-09-11 07:34:37 HKT ��־:  ������autovacuum
+2014-09-11 09:21:52 HKT ��������:  �û� "Zhanxueyou" Password ��֤ʧ��
+2014-09-11 09:21:52 HKT ��ϸ��Ϣ:  Connection matched pg_hba.conf line 82: "host    all             all             ::1/128                 md5"
+2014-09-11 09:57:01 HKT 错误:  语法错误 在 "'1.23'" 或附近的 第 1 个字符处
+2014-09-11 09:57:01 HKT 语句:  '1.23'::REAL;
+2014-09-11 09:57:09 HKT 错误:  语法错误 在 "dfjddksdjkldjkljkladf" 或附近的 第 1 个字符处
+2014-09-11 09:57:09 HKT 语句:  dfjddksdjkldjkljkladf;
+2014-09-11 09:57:20 HKT 错误:  语法错误 在 "REAL" 或附近的 第 1 个字符处
+2014-09-11 09:57:20 HKT 语句:  REAL '1.23'
+	;
+2014-09-11 10:36:53 HKT 错误:  操作符不存在: integer !- integer 第 9 个字符处
+2014-09-11 10:36:53 HKT 提示:  没有匹配指定名称和参数类型的操作符. 您也许需要增加明确的类型转换.
+2014-09-11 10:36:53 HKT 语句:  select 5!-6;
+2014-09-11 10:37:38 HKT 错误:  操作符不存在: integer !- integer 第 11 个字符处
+2014-09-11 10:37:38 HKT 提示:  没有匹配指定名称和参数类型的操作符. 您也许需要增加明确的类型转换.
+2014-09-11 10:37:38 HKT 语句:  select (5)!-6;
+2014-09-11 13:55:14 HKT 错误:  表 "products" 不存在
+2014-09-11 13:55:14 HKT 语句:  drop table products;
+2014-09-11 14:05:19 HKT 错误:  语法错误 在 "serial" 或附近的 第 43 个字符处
+2014-09-11 14:05:19 HKT 语句:  create table products(
+	product_no	integer	serial,
+	name	text,
+	price numeric	default 9.99
+	);
+2014-09-11 14:10:02 HKT 错误:  语法错误 在 ")" 或附近的 第 76 个字符处
+2014-09-11 14:10:02 HKT 语句:  create table products(
+	product_no	serial,
+	name	text,
+	price	numeric	default
+	);
+2014-09-11 14:47:28 HKT 错误:  表 "products" 不存在
+2014-09-11 14:47:28 HKT 语句:  drop table products;
+2014-09-11 15:21:05 HKT 错误:  关系 "products" 已经存在
+2014-09-11 15:21:05 HKT 语句:  create table products(
+	product_no	serial,
+	name	text,
+	price	numeric default 9.99 check(price > 0),
+	discounted_price numeric check(discounted_price > 0),
+	check(price > discounted_price)
+	);
+2014-09-11 15:24:00 HKT 错误:  字段 "prict" 不存在
+2014-09-11 15:24:00 HKT 语句:  create table products(
+	product_no	serial not null,
+	name	text not null,
+	price	numeric default 9.99 not null check(prict > 0),
+	discountec_price	numeric not null check(discounted_price > 0),
+	check(price > discounted_price)
+	);
+2014-09-11 15:24:14 HKT 错误:  字段 "discounted_price" 不存在
+2014-09-11 15:24:14 HKT 语句:  create table products(
+	product_no	serial not null,
+	name	text not null,
+	price	numeric default 9.99 not null check(price > 0),
+	discountec_price	numeric not null check(discounted_price > 0),
+	check(price > discounted_price)
+	);
+	
+2014-09-11 16:27:30 HKT 错误:  语法错误 在 "reference" 或附近的 第 71 个字符处
+2014-09-11 16:27:30 HKT 语句:  create table orders(
+	order_id	integer primary key,
+	product_no	integer reference products(product_no),
+	quantity integer
+	);
+2014-09-11 16:38:12 HKT 错误:  语法错误 在 "order" 或附近的 第 67 个字符处
+2014-09-11 16:38:12 HKT 语句:  create table order_items(
+	product_no integer references products,
+	order)id integer references orders,
+	quantity integer,
+	primary key(product_no, order_id)
+	);
+2014-09-11 16:43:31 HKT 错误:  关系 "order_items" 不存在 第 16 个字符处
+2014-09-11 16:43:31 HKT 语句:  
+	select * from order_items;
+	
+2014-09-11 17:45:21 HKT 错误:  关系 "products" 的 "cascade" 字段不存在
+2014-09-11 17:45:21 HKT 语句:  alter table products drop column cascade;
+2014-09-11 17:55:30 HKT 错误:  字段 "product_no" 是一个主键
+2014-09-11 17:55:30 HKT 语句:  alter table products alter column product_no drop not null;
+2014-09-11 18:05:18 HKT 错误:  字段 "product_no" 不存在
+2014-09-11 18:05:18 HKT 语句:  alter table products rename column product_no to product_number;
+2014-09-11 18:05:27 HKT 错误:  字段 "product_no" 不存在
+2014-09-11 18:05:27 HKT 语句:  alter table products rename column product_no to product_number;
+2014-09-11 18:07:50 HKT 错误:  关系 "products" 不存在
+2014-09-11 18:07:50 HKT 语句:  alter table products rename to items;
+2014-09-11 18:28:25 HKT ��־:  ���յ����� (fast) ֹͣ����
+2014-09-11 18:28:26 HKT ��־:  �ж��κμ�������
+2014-09-11 18:28:26 HKT ��־:  ���ڹر�autovacuum��������
+2014-09-11 18:28:26 HKT ��־:  ���ڹر�
+2014-09-11 18:28:26 HKT ��־:  ���ݿ�ϵͳ�ѹر�

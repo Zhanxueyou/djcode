@@ -1,0 +1,59 @@
+2014-09-02 07:43:16 HKT ��־:  ���ݿ��ϴιر�ʱ��Ϊ 2014-09-01 18:26:48 HKT
+2014-09-02 07:43:16 HKT ��������:  ���ݿ�ϵͳ������
+2014-09-02 07:43:17 HKT ��־:  ���ݿ�ϵͳ׼����������
+2014-09-02 07:43:17 HKT ��־:  ������autovacuum
+2014-09-02 15:14:33 HKT 日志:  无法从客户端获得数据: No connection could be made because the target machine actively refused it.
+	
+2014-09-02 15:14:58 HKT 日志:  无法从客户端获得数据: No connection could be made because the target machine actively refused it.
+	
+2014-09-02 15:23:52 HKT 错误:  语法错误 在 "select" 或附近的 第 26 个字符处
+2014-09-02 15:23:52 HKT 语句:  select * from books_book
+	select * from books_author
+	select * from books_book;
+2014-09-02 15:24:31 HKT 错误:  关系 "book" 不存在 第 15 个字符处
+2014-09-02 15:24:31 HKT 语句:  select * from book;
+2014-09-02 15:28:52 HKT 错误:  字段 "author_id" 包含空值
+2014-09-02 15:28:52 HKT 语句:  alter table books_book add author_id integer NOT NULL;
+2014-09-02 15:31:07 HKT 日志:  无法从客户端获得数据: No connection could be made because the target machine actively refused it.
+	
+2014-09-02 15:39:16 HKT 日志:  无法从客户端获得数据: No connection could be made because the target machine actively refused it.
+	
+2014-09-02 15:44:37 HKT 错误:  语法错误 在 "R" 或附近的 第 1 个字符处
+2014-09-02 15:44:37 HKT 语句:  R TABLE "books_book_authors" ADD CONSTRA
+	"id") DEFERRABLE INITIALLY DEFERRED;
+2014-09-02 15:46:01 HKT 日志:  无法从客户端获得数据: No connection could be made because the target machine actively refused it.
+	
+2014-09-02 15:46:50 HKT 错误:  语法错误 在 "k" 或附近的 第 88 个字符处
+2014-09-02 15:46:50 HKT 语句:  ALTER TABLE "books_book_authors" ADD CONSTRAINT "book_id_refs_id_0a3634f3" FOREIGN KEY
+	k" ("id") DEFERRABLE INITIALLY DEFERRED;
+	
+2014-09-02 15:47:52 HKT 错误:  关系 "books_book_authors" 的约束 "book_id_refs_id_0a3634f3" 已经存在
+2014-09-02 15:47:52 HKT 语句:  ALTER TABLE "books_book_authors" ADD CONSTRAINT "book_id_refs_id_0a3634f3" FOREIGN KEY ("book_id") REFERENCES "books_boo
+	k" ("id") DEFERRABLE INITIALLY DEFERRED;
+2014-09-02 15:48:19 HKT 错误:  关系 "books_book_authors" 的约束 "book_id_refs_id_0a3634f3" 已经存在
+2014-09-02 15:48:19 HKT 语句:  ALTER TABLE "books_book_authors" ADD CONSTRAINT "book_id_refs_id_0a3634f3" FOREIGN KEY ("book_id") REFERENCES "books_boo
+	k" ("id") DEFERRABLE INITIALLY DEFERRED;
+	
+2014-09-02 15:56:18 HKT 日志:  无法从客户端获得数据: No connection could be made because the target machine actively refused it.
+	
+2014-09-02 16:00:11 HKT 错误:  关系 "books_book" 的 "num_pages" 字段不存在
+2014-09-02 16:00:11 HKT 语句:  ALTER TABLE books_book DROP COLUMN num_pages;
+2014-09-02 16:03:40 HKT 日志:  无法从客户端获得数据: No connection could be made because the target machine actively refused it.
+	
+2014-09-02 16:12:22 HKT 日志:  无法从客户端获得数据: No connection could be made because the target machine actively refused it.
+	
+2014-09-02 16:13:20 HKT 日志:  无法从客户端获得数据: No connection could be made because the target machine actively refused it.
+	
+2014-09-02 16:21:06 HKT 日志:  无法从客户端获得数据: No connection could be made because the target machine actively refused it.
+	
+2014-09-02 16:22:22 HKT 日志:  无法从客户端获得数据: No connection could be made because the target machine actively refused it.
+	
+2014-09-02 17:01:33 HKT 日志:  无法从客户端获得数据: No connection could be made because the target machine actively refused it.
+	
+2014-09-02 18:01:08 HKT 日志:  无法从客户端获得数据: No connection could be made because the target machine actively refused it.
+	
+2014-09-02 18:31:05 HKT ��־:  ���յ����� (fast) ֹͣ����
+2014-09-02 18:31:05 HKT ��־:  �ж��κμ�������
+2014-09-02 18:31:05 HKT ��־:  ���ڹر�autovacuum��������
+2014-09-02 18:31:06 HKT ��־:  ���ڹر�
+2014-09-02 18:31:06 HKT ��־:  ���ݿ�ϵͳ�ѹر�
