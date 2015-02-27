@@ -1,0 +1,25 @@
+{
+	"folders":
+	[
+		{
+			"follow_symlinks": true,
+			"path": "."
+		},
+		{
+			"follow_symlinks": true,
+			"path": "D:\\phpdev"
+		},
+		{
+			"follow_symlinks": true,
+			"path": "D:\\new project svn"
+		},
+		{
+			"follow_symlinks": true,
+			"path": "D:\\Pythontest"
+		},
+		{
+			"follow_symlinks": true,
+			"path": "D:\\htmltest"
+		}
+	]
+}

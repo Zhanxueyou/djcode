@@ -20,7 +20,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(__file__))
 SECRET_KEY = '3+uhz68kavpzaar1jvxy7a=!8&8*(c$7!pi(=l)us(e*dp6)!e'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 TEMPLATE_DEBUG = True
 
@@ -28,7 +28,7 @@ TEMPLATE_DIRS = (
     os.path.join(os.path.dirname(__file__), 'templates').replace('\\', '/')
 )
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['localhost']   # if you set the DEBUG false, you need set this setting, it's your real hostname
 
 
 # Application definition
@@ -43,6 +43,7 @@ INSTALLED_APPS = (
     'mysite.books',
     'template_libs',
 )
+
 
 MIDDLEWARE_CLASSES = (
     'django.contrib.sessions.middleware.SessionMiddleware',

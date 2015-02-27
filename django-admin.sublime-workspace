@@ -1,0 +1,543 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"list-s",
+				"list-style-type"
+			],
+			[
+				"ba",
+				"background-attachment"
+			],
+			[
+				"bg",
+				"bg_flower"
+			],
+			[
+				"back",
+				"background"
+			],
+			[
+				"backgr",
+				"background-color"
+			],
+			[
+				"get",
+				"getElementsByTagName"
+			],
+			[
+				"ge",
+				"getElementById"
+			],
+			[
+				"tex",
+				"textContent"
+			],
+			[
+				"sc",
+				"scirpt"
+			],
+			[
+				"i",
+				"innerHTML"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"va",
+				"validate_required"
+			],
+			[
+				"fu",
+				"function"
+			],
+			[
+				"al",
+				"alerttxt"
+			],
+			[
+				"__in",
+				"__init__	magic"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/C/Program Files/Vim/vim73/ftplugin/python.vim",
+			"settings":
+			{
+				"buffer_size": 1289,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "Packages/Python/Python.sublime-build",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				":char",
+				"HTML: Encode Special Characters→特殊字符进行编码"
+			],
+			[
+				"vie",
+				"View: Toggle Menu→切换菜单"
+			],
+			[
+				":q",
+				"Set Syntax: SQL"
+			],
+			[
+				"view:",
+				"View: Toggle Menu→切换菜单"
+			],
+			[
+				"",
+				"About→关于"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package→安装程序包"
+			],
+			[
+				"Package Control: i",
+				"Package Control: Install Package→安装程序包"
+			]
+		],
+		"width": 512.0
+	},
+	"console":
+	{
+		"height": 146.0,
+		"history":
+		[
+			"python",
+			"print('zhanxueyou')",
+			"python"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/E/学习/selenium/testscript/web_baidu.py",
+		"/C/Windows/System32/drivers/etc/hosts",
+		"/C/Users/Zhanxueyou/Desktop/test.py",
+		"/C/Program Files/Vim/_vimrc",
+		"/D/htmltest/styles/css_test.css",
+		"/D/htmltest/submitpage.html",
+		"/D/htmltest/JSON_test.html",
+		"/D/htmltest/scripts/showPic.js",
+		"/D/htmltest/json_test.json",
+		"/D/htmltest/gallery.html",
+		"/D/htmltest/jsverify.html",
+		"/D/htmltest/mouse_over_out.html",
+		"/D/htmltest/css_test1.html",
+		"/D/htmltest/css_test.html",
+		"/D/htmltest/styles/layout.css",
+		"/D/htmltest/html_dom.html",
+		"/D/phpdev/test.php",
+		"/D/phpdev/index.php",
+		"/D/htmltest/type_of_object.html",
+		"/C/Users/Zhanxueyou/Desktop/viewtest.py",
+		"/D/htmltest/type_of_object.xhtml",
+		"/D/new project svn/999ask/branches/r2.0/framework/configs/system.php",
+		"/D/phpdev/test/array.php",
+		"/D/new project svn/999ask/trunk/batch/db/db_config.php",
+		"/D/new project svn/999ask/trunk/woman/index.php",
+		"/D/new project svn/999ask/trunk/framework/base.php",
+		"/D/new project svn/999ask/branches/r2.0/batch/db/db_config.php",
+		"/D/phpdev/test/test.php",
+		"/D/Pythontest/input.py",
+		"/D/Pythontest/make-text-file.py",
+		"/D/Pythontest/Client.py",
+		"/D/Pythontest/poem.txt",
+		"/D/Pythontest/make1.txt",
+		"/D/Pythontest/except2.py",
+		"/D/Pythontest/speed_fuction.py",
+		"/D/new project svn/999ask/branches/r2.0/batch/db/db.php",
+		"/D/Pythontest/fie1.py",
+		"/D/Pythontest/file.py",
+		"/D/Pythontest/pfaGUI2.py",
+		"/D/Pythontest/listdir.py",
+		"/D/Pythontest/make.txt",
+		"/D/Pythontest/menuboard.py",
+		"/D/Pythontest/17.1.py",
+		"/D/phpdev/static_property.php",
+		"/D/new project svn/999ask/branches/r2.0/framework/modules/www/user/index.php",
+		"/C/Program Files/Sublime Text 3 cn/Data/Packages/Default/Preferences.sublime-settings",
+		"/C/Program Files/Sublime Text 3 cn/Data/Packages/User/Distraction Free.sublime-settings",
+		"/C/Program Files/Sublime Text 3 cn/Data/Packages/User/JSON.sublime-settings",
+		"/C/Program Files/Sublime Text 3 cn/Data/Packages/User/Preferences.sublime-settings",
+		"/D/phpdev/test/namespace.php",
+		"/D/new project svn/999ask/trunk/www/tlfw/modules/getpass/index.php",
+		"/C/Users/Zhanxueyou/Documents/My Knowledge/Data/zhanxueyou@yeah.net/My Notes/奋斗目标/我的民族目标：.ziw",
+		"/D/php-5.6.0/php.ini",
+		"/D/phpdev/test/second.php",
+		"/D/phpdev/test/action.php",
+		"/D/phpdev/test/form.html",
+		"/D/djcode/mysite/mysite/views.py",
+		"/D/djcode/mysite/mysite/urls.py",
+		"/D/HR-System/READEME.md",
+		"/D/djcode/.idea/encodings.xml",
+		"/D/phpdev/phpMyAdmin/schema_edit.php",
+		"/D/djcode/HR_System/HR_System/settings.py",
+		"/D/phpdev/wordpress/wp-admin/setup-config.php",
+		"/D/phpdev/phpMyAdmin/libraries/plugins/export/ExportCodegen.class.php",
+		"/D/phpdev/phpMyAdmin/libraries/StorageEngine.class.php",
+		"/D/phpdev/wordpress/wp-content/languages/themes/twentyfourteen-zh_CN.mo",
+		"/D/phpdev/wordpress/wp-includes/script-loader.php",
+		"/D/phpdev/wordpress/wp-includes/functions.php",
+		"/D/phpdev/wordpress/wp-config.php",
+		"/D/phpdev/wordpress/wp-includes/css/admin-bar.css",
+		"/C/Windows/php.ini",
+		"/D/phpdev/phpMyAdmin/config.sample.inc.php",
+		"/D/phpdev/phpMyAdmin/libraries/php-gettext/gettext.inc",
+		"/D/phpdev/phpMyAdmin/libraries/config.default.php",
+		"/D/phpdev/second.php",
+		"/D/Apache24/conf/httpd.conf",
+		"/D/phpdev/index.html",
+		"/D/Apache24/conf/extra/httpd-vhosts.conf",
+		"/D/Apache24/htdocs/index.php",
+		"/C/Program Files/Apache Software Foundation/Apache2.2/conf/httpd.conf",
+		"/D/Pythontest/9.py",
+		"/D/djcode/mysite/mysite/test.py",
+		"/D/djcode/mysite/mysite/settings.py",
+		"/D/djcode/mysite/mysite/templates/base.html",
+		"/D/djcode/mysite/mysite/templates/404.html",
+		"/C/Program Files/Sublime Text 3 cn/Data/Packages/User/SQL.sublime-settings",
+		"/D/djcode/mysite/mysite/uwsgi.xml",
+		"/D/djcode/mysite/mysite/wsgi.py",
+		"/D/Program Files/localhost/www/grw/admin.php",
+		"/D/Program Files/localhost/Bin/Apache/conf/extra/httpd-vhosts.conf",
+		"/D/Program Files/localhost/Bin/Apache/conf/httpd.conf",
+		"/D/Program Files/localhost/Bin/Apache/logs/www.grw.name-access_log",
+		"/D/Program Files/localhost/Bin/Apache/logs/www.grw.name-error_log",
+		"/D/localhost/Bin/Apache/conf/httpd.conf",
+		"/D/localhost/Bin/Apache/conf/extra/httpd-vhosts.conf",
+		"/C/Program Files/Git/etc/profile",
+		"/C/Program Files/Git/etc/gitconfig",
+		"/C/Program Files/Git/etc/inputrc",
+		"/E/学习/selenium/scripts(all usefull)/baidu_click.py",
+		"/D/Program Files/localhost/www/index.php",
+		"/D/Program Files/localhost/www/test.php",
+		"/E/学习/selenium/ide/test_baidu_index.html",
+		"/C/Users/Zhanxueyou/Desktop/sys_clean.bat",
+		"/D/Program Files/localhost/www/wordpress/wp-admin/setup-config.php",
+		"/D/wordpress/readme.html",
+		"/D/php5/php.ini",
+		"/D/Program Files/localhost/www/index.html",
+		"/D/Apache/conf/httpd.conf",
+		"/D/apache/htdocs/test.html",
+		"/D/apache/htdocs/index.php",
+		"/D/apache/htdocs/index.html",
+		"/D/php-5.6.0/INSTALL",
+		"/D/nginx/conf/nginx.conf",
+		"/D/uwsgi-2.0.6/uwsgi-2.0.6/buildconf/uwsgi.it.ini",
+		"/D/phpdev/phpinfo.php",
+		"/D/Apache/htdocs/index.html",
+		"/D/Pythontest/test.py",
+		"/D/Pythontest/hello_world.py",
+		"/C/Users/Zhanxueyou/Documents/My Knowledge/Data/zhanxueyou@yeah.net/My Notes/学习/Python/Python习题_Attachments/3.py",
+		"/E/学习/xpath/import_data.js",
+		"/C/Users/Zhanxueyou/Desktop/药品库后台测试练习.py",
+		"/E/学习/xpath/练习",
+		"/D/Pythontest/tkhello4.py",
+		"/C/Users/Zhanxueyou/Desktop/test.html",
+		"/C/Users/Zhanxueyou/Desktop/mouseover.html",
+		"/D/Pythontest/view_kitty.py",
+		"/D/Pythontest/qt_designer_first_test_ui.py",
+		"/D/Pythontest/qt_designer_first_test_exec.py"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"select *",
+			"e_strict",
+			"font",
+			"useso",
+			"font",
+			"extension_dir",
+			"mbstring",
+			"pma",
+			"extension_dir",
+			"vhost",
+			"root",
+			"\n</",
+			"options index",
+			"directory",
+			"localhost",
+			"document",
+			"srvroot",
+			"directory",
+			"index.html",
+			"ht",
+			"documentroot",
+			"files",
+			"documentroot",
+			"denie",
+			"denied",
+			"deny",
+			"deny ",
+			"ext",
+			"servername",
+			"extension_dir",
+			"extension",
+			"extension_dir",
+			"extension",
+			"php",
+			"directoryindex",
+			"directory",
+			"extension",
+			"ignored_packages",
+			"ignore",
+			"vhost",
+			"prog",
+			"pro",
+			"allowo",
+			"alias",
+			"prog",
+			"pro",
+			"httpd-v",
+			"export",
+			"output",
+			"yiyuan",
+			"php",
+			"html",
+			"php5",
+			"mime",
+			"vhost",
+			"deny",
+			"allow",
+			"application",
+			"403",
+			"404",
+			"phpdev",
+			"directory",
+			"index",
+			"root",
+			"php",
+			"shor",
+			"80",
+			"php",
+			"phpdev",
+			"apache/htdoc",
+			"Directory",
+			"documentroot",
+			"\\",
+			"directory",
+			"index",
+			"root",
+			"directory",
+			"php",
+			"Off",
+			"mysql",
+			"off",
+			"register",
+			"localhost",
+			"documentroot",
+			"document",
+			"php",
+			"bug",
+			"debug",
+			"bug",
+			"php",
+			"extension",
+			"documentroot",
+			"document",
+			"php",
+			"mime",
+			"text/",
+			"php5",
+			"loadmodule",
+			"php",
+			"loadmodule",
+			"type",
+			"content",
+			"cotent",
+			"directory",
+			"documentroot",
+			"dir",
+			"php",
+			"ifmodule",
+			"directory",
+			"extension",
+			"documentroot",
+			"extension",
+			"dir",
+			"windows",
+			"mime",
+			"loadmodule",
+			"mime",
+			"datetime",
+			"exten",
+			"windows",
+			"tk",
+			"25",
+			"%p",
+			"-a"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/C/Program Files/Vim/vim73/ftplugin/python.vim",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1289,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"encoding_helper_encoding": "UTF-8",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 34.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 118.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "django-admin.sublime-project",
+	"replace":
+	{
+		"height": 48.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 191.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

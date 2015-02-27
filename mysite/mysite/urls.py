@@ -15,8 +15,8 @@ urlpatterns = patterns('',      # 这个字符串用来填写公共的字符串�
     # url(r'^blog/', include('blog.urls')),
     (r'^time/$', current_datetime),
     (r'^time/plus/(\d{1,2})$/', hours_ahead),
-
-    url(r'^admin/', include(admin.site.urls)),    # 这个地方如果在匹配末尾家$就会报错 NoReverseMatch at /admin/
+    # 这个地方如果在匹配末尾加$#就会报错 NoReverseMatch at /admin/
+    url(r'^admin/', include(admin.site.urls)),    
     (r'^cur_url/$', current_url_view),
     (r'^display_meta/$', display_meta),
     (r'^search/$', search),
